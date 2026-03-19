@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "SmartFuseSync": {
+      "commandName": "Project",
+      "commandLineArgs": "Config Update -f:\"C:\\GitProjects\\SFB\\UpdateBasementSensor.dat\" -p:COM7 -b:115200"
+    }
+  }
+}
