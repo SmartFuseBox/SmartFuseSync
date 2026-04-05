@@ -4,7 +4,7 @@ using System.IO.Ports;
 namespace SmartFuseSync;
 
 [CmdLineDescription("Manages configuration updates for SmartFuseBox devices via COM PORT")]
-internal class ConfigProcessor : BaseCommandLine, IDisposable
+internal class SerialConfigProcessor : BaseCommandLine, IDisposable
 {
     private SerialPort? _serialPort;
 

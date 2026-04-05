@@ -2,7 +2,7 @@
 using SmartFuseSync;
 
 IConsoleProcessorFactory factory = new ConsoleProcessorFactory();
-object[] processors = [new ConfigProcessor()];
+object[] processors = [new SerialConfigProcessor(), new WifiConfigProcessor()];
 
 IConsoleProcessor consoleProcessor = factory.Create("SmartFuseSync", processors);
 
